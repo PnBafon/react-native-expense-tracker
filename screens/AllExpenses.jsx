@@ -4,7 +4,7 @@ import ExpensesOutput from '../components/ExpensesOutput/ExpensesOutput'
 
 const AllExpenses = () => {
   return (
-    <View>
+    <View style={{flex:1}}>
       <ExpensesOutput expensePeriod={'Total'} />
     </View>
   )
