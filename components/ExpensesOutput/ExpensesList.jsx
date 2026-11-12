@@ -3,7 +3,7 @@ import React from 'react'
 
 const ExpensesList = ({expenses}) => {
   return (
-    <FlatList data={expenses} renderItem={} />
+    <FlatList data={expenses} renderItem={expense => <Text key={expense.index}>{expense.item.description}</Text> }  />
   )
 }
 

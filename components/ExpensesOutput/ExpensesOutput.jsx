@@ -29,10 +29,10 @@ const DUMMY_EXPENSES = [
         date: new Date('2026-11-03')
     },
 ]
-const ExpensesOutput = ({expenses, periodName, }) => {
+const ExpensesOutput = ({expenses, expensePeriod }) => {
   return (
     <View>
-        <ExpenseSummary expenses={DUMMY_EXPENSES} />
+        <ExpenseSummary expenses={DUMMY_EXPENSES} expensePeriod={expensePeriod} />
         <ExpensesList expenses={DUMMY_EXPENSES}/>
 
       
